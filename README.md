@@ -75,7 +75,6 @@ COMMON="--dataset_name vsl_bench --safety_prompt_type vslbench --judge_model gpt
         --file1_use_zoom_in --file1_use_tag --file1_use_ocr --file1_use_code_interpreter \
         --file2_model_name qwen3vl --file2_prompt_type no_tools_deep"
 
-# McNemar + H1 decomposition + H2 context dilution
 python vtool-agents/analysis_comparison.py $COMMON --compute_decom_effect --compute_dilution_effect
 
 # Opening-class displacement (sentence-0 class: O=observation / S=safety / A=answer).
