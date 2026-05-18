@@ -54,7 +54,7 @@ Flags shared by all four:
 
 HoliSafe SSU/SUU/USU/UUU shards merge with `python vtool-agents/combine_files.py ...`.
 
-## Safety metrics (ASR / RFR)
+## Safety metrics (ASR, which we call RFR in the paper)
 
 ```sh
 python vtool-agents/compute_safety_metrics.py \
